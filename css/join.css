@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+.backBox{
+  background-color: #014931;
+  padding: 150px;
+}
+.backBox h2{
+  color: #A0AA95;
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-shadow: 1px 1px 0 #000;
+}
+.joinbox{
+  background: rgba(255, 255, 255, 0.863);
+  padding: 50px 0 100px 0;
+}
+
+.joinbox h3,p{
+  text-align: center;
+}
+.joinbox h3{
+  font-size: 36px;
+  font-weight: normal;
+  color: rgb(53, 53, 53);
+}
+.joinbox p{
+  color: #A0AA95;
+  font-size: 12px;
+  margin-bottom: 100px;
+}
+
+
+/* 폼 구역 */
+.joinwrap table col:first-child{
+  width: 150px;
+}
+.joinwrap table col:last-child{
+  width: auto;
+}
+.joinwrap th, .joinwrap td{
+  border: 1px solid #A0AA95;
+  padding: 10px;
+  text-align: left;
+}
+.joinwrap td > input{
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #bebebe;
+  padding: 10px 0;
+  text-indent: 1em;
+}
+.joinwrap td > input[type='radio']{
+  vertical-align: middle;
+  width: 20px;
+  margin: 0 5px;
+}
+.joinwrap td > input[type='radio']+label{
+  font-size: 15px;
+}
+.joinwrap td > input[type='radio']:first-child+label{
+  margin-right: 20px;
+}
+.joinwrap{
+  position: relative;
+}
+.joinwrap .btn{
+  position: absolute;
+  bottom: -60px;
+  right: 0;
+}
+.joinwrap .btn button{
+  padding: 5px 35px;
+  background-color: #014931;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: middle;
+}
